@@ -1,0 +1,13 @@
+{
+	"n_targets": 187626,
+	"n_bootstraps": 100,
+	"n_processed": 13600287,
+	"n_pseudoaligned": 11562711,
+	"n_unique": 3684542,
+	"p_pseudoaligned": 85.0,
+	"p_unique": 27.1,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Tue Feb  5 23:13:46 2019",
+	"call": "kallisto quant -i ../Data/hg38/kallisto/Homo_sapiens.GRCh38.cdna.all.idx -o ../Results/kallisto/sample41 -b 100 ../Results/Trim/sample41_R1.fastq.gz ../Results/Trim/sample41_R2.fastq.gz"
+}
